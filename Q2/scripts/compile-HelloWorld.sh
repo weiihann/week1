@@ -4,7 +4,7 @@ cd contracts/circuits
 
 mkdir HelloWorld
 
-if [ -f ./powersOfTau28_hez_final_10.ptau ]; then
+if [ -f ./powersOfTau28_hez_final_10.ptau ]; then # PowersOfTau is a trusted setup
     echo "powersOfTau28_hez_final_10.ptau already exists. Skipping."
 else
     echo 'Downloading powersOfTau28_hez_final_10.ptau'
